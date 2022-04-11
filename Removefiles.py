@@ -12,14 +12,14 @@ def main():
     deleted_files_count =0
 
     # specify the path
-    path = "/PATH_TO_DELETE"    
+    path = "/Desktop/desktop/whitehat jr/Python/Projects/pro 99 backup files/New folder"    
 
     # specify the days
-    days = 30
+    seconds = 5
 
     # converting days to seconds
     # time, time() returns current time in seconds
-    seconds = time.time() - (days * 24 * 60 * 60)
+    seconds = time.time() - (seconds)
 
     # checking whether the file is present in path or not
     if os.path.exists(path):
@@ -125,8 +125,8 @@ def get_file_or_folder_age(path):
         return ctime
 
     
-if _name__ == '_main_':
-    main()
+
+main()
 
 
 
