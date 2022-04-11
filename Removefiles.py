@@ -115,7 +115,7 @@ def remove_file(path):
         print("Unable to delete the "+path)
 
     
-    def get_file_or_folder_age(path):
+def get_file_or_folder_age(path):
 
         # getting ctime of the file/folder 
         # time will be in seconds 
